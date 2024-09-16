@@ -6,7 +6,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>774,2501</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>678,2185</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ProcessTransaction_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="100">
@@ -148,7 +148,7 @@
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Invoke major steps of the business process, which are usually implemented by multiple subworkflows.&#xA;&#xA;If a BusinessRuleException is thrown, the transaction is skipped. &#xA;If another kind of exception occurs, the current transaction can be retried. " DisplayName="Process" sap:VirtualizedContainerService.HintSize="784,2436" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Invoke major steps of the business process, which are usually implemented by multiple subworkflows.&#xA;&#xA;If a BusinessRuleException is thrown, the transaction is skipped. &#xA;If another kind of exception occurs, the current transaction can be retried. " DisplayName="Process" sap:VirtualizedContainerService.HintSize="688,2080" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="Content" />
       <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="ExtractDataTable" />
@@ -161,9 +161,8 @@
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:LogMessage DisplayName="Log Message Process Start" sap:VirtualizedContainerService.HintSize="722,173" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Started Process&quot;]" />
-    <ui:Comment DisplayName="Comment (placeholder)" sap:VirtualizedContainerService.HintSize="722,88" sap2010:WorkflowViewState.IdRef="Comment_1" Text="//  Invoke steps of the process" />
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: T.C. Resmî Gazete" sap:VirtualizedContainerService.HintSize="722,1840" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="48992b04-e3c4-48c9-bdf9-9263845b8984" Version="V2">
+    <ui:LogMessage DisplayName="Log Message Process Start" sap:VirtualizedContainerService.HintSize="626,173" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Started Process&quot;]" />
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: T.C. Resmî Gazete" sap:VirtualizedContainerService.HintSize="626,57" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="48992b04-e3c4-48c9-bdf9-9263845b8984" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -259,8 +258,103 @@
       <uix:NApplicationCard.TargetApp>
         <uix:TargetApp Area="-8, -8, 1456, 876" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIKSURBVDhPrVNNiNNgEM1VxIMoKuJBvSgigqwH9aAH9yCIsIgiorCiIILgXTzroqcVjyLoYUXwIHhR9pIK29VNTJrYJmmT5r9JmiZa2sLW23MSs1tK/QH1g3cY5ps3b943H/Nfjr1hK/4GRTnDWBT8DGsX3b0H4F65iuTZc0TnL63ni/JCwabtcA9OwTtxCt6R47A3boN1+Cjs+XlYL1+h2+2i3++jz7KTCvwbNxFZFjStDp3nYb5+gzbHwWmacPQmfNNCGEaEEN+GQ3hTx8YJPiwuIk2/otNJYFKRrRsIghB+KyCEcFwPJpEEQYA0SZA+ejw+Av/gIXTqlHWJwjbiuIMoihBQrKgaajUFkiRDEATU6xpW4zbsLbtGBOrsNXArPM3Zo8I47+55PhGE+CSIWFoqQ5JlWJYNx7bR69G92esjAnP/ISyXl9EiyXGc0Chp3tVxXBhGE4JYgSx/hiiKqFaruRe9UmlEkBkivnsLnhfIiy+5Fzr5oJL8jDRTwHF8TpblBoMBhsPVEUFmiHJvDixbohF+eNDyA0gVKVeh0utkyAhMGsV58hTBrdvjCvSZCyjTGDVFzQmyTo26jkZDh0Evoyy8gHX2HKzNOyf3IAvM3fvAfVzJVWjURbw/h/dnZsCenAY3fXpsMycI1pK1O3dRuXgZxo496+v6OxTlv/4Lf0JR/i+HYb4DR7YwegwT+TUAAAAASUVORK5CYII=" InformativeScreenshot="fa53e1d4f20da4489eb3371324e20020.jpg" Selector="&lt;html app='chrome.exe' title='T.C. Resmî Gazete' /&gt;" Title="T.C. Resmî Gazete" Url="https://www.resmigazete.gov.tr/" />
       </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
     </uix:NApplicationCard>
-    <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" From="{x:Null}" MailMessage="{x:Null}" Name="{x:Null}" ReplyTo="{x:Null}" Result="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" UseOAuth="{x:Null}" Body="[Content]" DisplayName="Send SMTP Mail Message" Email="mberkayarslann@gmail.com" EnableSSL="True" sap:VirtualizedContainerService.HintSize="722,175" sap2010:WorkflowViewState.IdRef="SendMail_4" IgnoreCRL="False" IsBodyHtml="True" Password="lpbs iegc syih arch" Port="587" SecureConnection="Auto" Server="smtp.gmail.com" Subject="Resmi Gazete" To="mberkayarslann@gmail.com">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: T.C. Resmî Gazete" sap:VirtualizedContainerService.HintSize="626,1515" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" ScopeGuid="4f06bd04-f6b8-408e-be79-f335c993891b" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="592,1266" sap2010:WorkflowViewState.IdRef="Sequence_15">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NGetText DisplayName="Get Text 'resmigazete.gov.tr/fihr…'" sap:VirtualizedContainerService.HintSize="530,189" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="4f06bd04-f6b8-408e-be79-f335c993891b" TextString="[Tarih]" Version="V4">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.resmigazete.gov.tr/fihrist?tarih=2024-09-16" DesignTimeRectangle="165, 59, 1101, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='T.C. Resmî Gazete - Google Chrome' role='pane' /&gt;&lt;ctrl name='Address and search bar' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='T.C. Resmî Gazete - Google Chrome' role='pane' /&gt;&lt;ctrl name='Address and search bar' role='editable text' automationid='' /&gt;" Guid="cb1592ea-c0c0-4119-a905-e075131b7fd2" InformativeScreenshot="2f8fac3f8676667e68e2399f8a4f63c1.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='T.C. Resmî Gazete - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="36, 8, 256, 41" ElementType="TabPage" FullSelectorArgument="&lt;ctrl name='T.C. Resmî Gazete - Google Chrome' role='pane' /&gt;&lt;ctrl name='T.C. Resmî Gazete - Memory usage - 198 MB' role='page tab' /&gt;" FuzzySelectorArgument="&lt;ctrl name='T.C. Resmî Gazete - Google Chrome' role='pane' /&gt;&lt;ctrl name='T.C. Resmî Gazete - Memory usage - 198 MB' role='page tab' automationid='' check:fulltext='Close' /&gt;" Guid="12eb3277-a8a1-466f-938f-ac3cd69bc188" SearchSteps="Selector, FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <Assign sap:VirtualizedContainerService.HintSize="530,114" sap2010:WorkflowViewState.IdRef="Assign_6">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:String">[Tarih]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:String">[DateTime.Parse(Tarih.Split("=")(1)).ToLongDateString]</InArgument>
+              </Assign.Value>
+            </Assign>
+            <If Condition="[Tarih= DateTime.Now.ToLongDateString]" sap:VirtualizedContainerService.HintSize="530,873" sap2010:WorkflowViewState.IdRef="If_3">
+              <If.Then>
+                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="496,607" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="x:String" Name="Mükerrer" />
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'PDF Görüntüle'" sap:VirtualizedContainerService.HintSize="434,225" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4f06bd04-f6b8-408e-be79-f335c993891b" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="https://www.resmigazete.gov.tr/eskiler/2024/09/20240916.pdf" DesignTimeRectangle="650, 374, 140, 40" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='PDF Görüntüle' tag='A' type='' class='btn btn-sm border-none shadow text-white fihrist-pdfbutton mt-3' check:innerText='PDF Görüntüle' /&gt;" Guid="76ff7253-04d5-4ce4-8b89-78bcbc355af2" InformativeScreenshot="0e52005b6f687db4367b316a2338b85a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='T.C. Resmî Gazete' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                  <uix:NGetText DisplayName="Get Text 'resmigazete.gov.tr/eski…'" sap:VirtualizedContainerService.HintSize="434,189" sap2010:WorkflowViewState.IdRef="NGetText_3" ScopeIdentifier="4f06bd04-f6b8-408e-be79-f335c993891b" TextString="[Mükerrer]" Version="V4">
+                    <uix:NGetText.Target>
+                      <uix:TargetAnchorable BrowserURL="https://www.resmigazete.gov.tr/eskiler/2024/09/20240916.pdf" DesignTimeRectangle="165, 59, 1101, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='Layout 1 - Google Chrome' role='pane' /&gt;&lt;ctrl name='Address and search bar' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Layout 1 - Google Chrome' role='pane' /&gt;&lt;ctrl name='Address and search bar' role='editable text' automationid='' /&gt;" Guid="7a3e4653-6021-4be0-9988-42b80c2e8c23" InformativeScreenshot="456aa2c4ea90b9793665e2befeedd72c.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Layout 1 - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
+                    </uix:NGetText.Target>
+                  </uix:NGetText>
+                  <Assign sap:VirtualizedContainerService.HintSize="434,105" sap2010:WorkflowViewState.IdRef="Assign_7">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:String">[Content]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:String">[Content + Mükerrer]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                </Sequence>
+              </If.Then>
+              <If.Else>
+                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,103" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </If.Else>
+            </If>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1456, 876" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIKSURBVDhPrVNNiNNgEM1VxIMoKuJBvSgigqwH9aAH9yCIsIgiorCiIILgXTzroqcVjyLoYUXwIHhR9pIK29VNTJrYJmmT5r9JmiZa2sLW23MSs1tK/QH1g3cY5ps3b943H/Nfjr1hK/4GRTnDWBT8DGsX3b0H4F65iuTZc0TnL63ni/JCwabtcA9OwTtxCt6R47A3boN1+Cjs+XlYL1+h2+2i3++jz7KTCvwbNxFZFjStDp3nYb5+gzbHwWmacPQmfNNCGEaEEN+GQ3hTx8YJPiwuIk2/otNJYFKRrRsIghB+KyCEcFwPJpEEQYA0SZA+ejw+Av/gIXTqlHWJwjbiuIMoihBQrKgaajUFkiRDEATU6xpW4zbsLbtGBOrsNXArPM3Zo8I47+55PhGE+CSIWFoqQ5JlWJYNx7bR69G92esjAnP/ISyXl9EiyXGc0Chp3tVxXBhGE4JYgSx/hiiKqFaruRe9UmlEkBkivnsLnhfIiy+5Fzr5oJL8jDRTwHF8TpblBoMBhsPVEUFmiHJvDixbohF+eNDyA0gVKVeh0utkyAhMGsV58hTBrdvjCvSZCyjTGDVFzQmyTo26jkZDh0Evoyy8gHX2HKzNOyf3IAvM3fvAfVzJVWjURbw/h/dnZsCenAY3fXpsMycI1pK1O3dRuXgZxo496+v6OxTlv/4Lf0JR/i+HYb4DR7YwegwT+TUAAAAASUVORK5CYII=" InformativeScreenshot="61572f3b1eb72f716668de561d50ac2d.jpg" Selector="&lt;html app='chrome.exe' title='T.C. Resmî Gazete' /&gt;" Title="T.C. Resmî Gazete" Url="https://www.resmigazete.gov.tr/fihrist?tarih=2024-09-16" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" From="{x:Null}" MailMessage="{x:Null}" Name="{x:Null}" ReplyTo="{x:Null}" Result="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" UseOAuth="{x:Null}" Body="[Content]" DisplayName="Send SMTP Mail Message" Email="mberkayarslann@gmail.com" EnableSSL="True" sap:VirtualizedContainerService.HintSize="626,175" sap2010:WorkflowViewState.IdRef="SendMail_5" IgnoreCRL="False" IsBodyHtml="True" Password="lpbs iegc syih arch" Port="587" SecureConnection="Auto" Server="smtp.gmail.com" Subject="Resmi Gazete" To="mberkayarslann@gmail.com">
       <ui:SendMail.Files>
         <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
       </ui:SendMail.Files>
